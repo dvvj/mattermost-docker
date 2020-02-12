@@ -5,4 +5,4 @@ services:
     restart: always
     ports:
      - "8008:8008"
-
+    network_mode: "host"
