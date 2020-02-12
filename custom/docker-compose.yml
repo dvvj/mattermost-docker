@@ -66,8 +66,3 @@ services:
     # environment:
     #  - MATTERMOST_ENABLE_SSL=true
 
-  mmext:
-    image: "jiajidev/mm-mmext-postgres:${IMG_VERSION}"
-    restart: always
-    ports:
-     - "8008:8008"
