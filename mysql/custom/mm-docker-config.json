@@ -131,8 +131,8 @@
         "IosMinVersion": ""
     },
     "SqlSettings": {
-        "DriverName": "postgres",
-        "DataSource": "mmuser:mostest@tcp(localhost:3306)/mattermost_test?charset=utf8mb4,utf8\u0026readTimeout=30s\u0026writeTimeout=30s",
+        "DriverName": "mysql",
+        "DataSource": "mmuser:mmuser_password@tcp(db:3306)/mattermost?charset=utf8mb4,utf8&readTimeout=30s&writeTimeout=30s",
         "DataSourceReplicas": [],
         "DataSourceSearchReplicas": [],
         "MaxIdleConns": 20,
