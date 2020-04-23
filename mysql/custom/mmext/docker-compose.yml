@@ -1,0 +1,8 @@
+version: '3'
+services:
+  mmext:
+    image: "jiajidev/mm-mmext:${IMG_VERSION}"
+    restart: always
+    ports:
+     - "8008:8008"
+    network_mode: "host"
